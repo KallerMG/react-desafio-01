@@ -1,0 +1,24 @@
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 8px;
+  width: 90px;
+  height: 52px;
+
+  border-radius: 8px;
+  background: var(--blue-dark);
+  outline: none;
+  border: none;
+
+  color: var(--gray-100);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+.button:hover {
+  border-radius: 8px;
+  background: var(--blue);
+}

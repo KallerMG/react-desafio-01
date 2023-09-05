@@ -1,0 +1,39 @@
+.input {
+  display: flex;
+  width: 100%;
+  min-height: 54px;
+  padding: 16px;
+  align-items: center;
+  gap: 8px;
+
+  border-radius: 8px;
+  outline: 1px solid var(--gray-700);
+  background: var(--gray-500);
+
+  color: var(--gray-100);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
+  border: none;
+}
+
+.input::placeholder {
+  color: var(--gray-300);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.input:hover {
+  outline: 1px solid var(--purple-dark);
+}
+.input:focus {
+  outline: 1px solid var(--purple-dark);
+}
+.input:active {
+  outline: 1px solid var(--purple-dark);
+}
